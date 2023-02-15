@@ -1,6 +1,10 @@
 # dot-emacs
 Emacs base configuration for some programming languages
 
+## Visual demonstration of the Emacs-Clojure configuration
+
+![Alt Text](https://github.com/Carht/dot-files/blob/main/doc/emacs_clojure_config.gif)
+
 ## Default packages
 
 Some basic packages for Scheme Lisp [Guile](https://www.gnu.org/software/guile/) using the [geiser](https://www.nongnu.org/geiser/) configuration, and basic file modes for [Elixir programming language](https://elixir-lang.org/), [Haskell programming language](https://www.haskell.org/), [Golang](https://go.dev/), [Lua](https://www.lua.org/), [Scala](https://scala-lang.org/), [Rust](https://www.rust-lang.org/) and [OCaml programming language](https://ocaml.org/)
