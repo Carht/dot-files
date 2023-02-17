@@ -50,7 +50,6 @@
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
 
 ;; enable paredit-mode for clojure files and cider
-(add-hook 'cider-repl-mode-hook #'paredit-mode) ;;repl
 (add-hook 'clojure-mode-hook 'enable-paredit-mode) ;; enable paredit for clojure files
 
 ;; enable company-mode for clojure files and cider
