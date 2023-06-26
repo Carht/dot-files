@@ -48,6 +48,7 @@
 ;; sbcl
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl")
+(show-paren-mode t)
 
 ;; enable paredit-mode for clojure files and cider
 (add-hook 'clojure-mode-hook 'enable-paredit-mode) ;; enable paredit for clojure files
